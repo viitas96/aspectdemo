@@ -1,4 +1,4 @@
-package com.clima.amsmmchatbot.config;
+package com.clima.aspectdemo.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -19,10 +19,10 @@ public class OpenApiConfig {
                 .addServersItem(new Server()
                         .url(""))
                 .info(new Info()
-                        .title("AMSMMCHATBOT API")
+                        .title("AOP DEMO")
                         .version(appVersion)
                         .license(new License()
-                                .name("AMSMMCHATBOT 1.0")
+                                .name("AOP DEMO 1.0")
                                 .url("https://dev.bitsoft.md/")));
     }
 

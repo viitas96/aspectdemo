@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "firstName": "Rusu",
+    "lastName": "Ion",
+    "email": "email@gmail.com",
+    "idNumber": 25482,
+    "age": 25
+  },
+  {
+    "id": 2,
+    "firstName": "Margineanu",
+    "lastName": "Marin",
+    "email": "marin@gmail.com",
+    "idNumber": 25483,
+    "age": 35
+  }
+]

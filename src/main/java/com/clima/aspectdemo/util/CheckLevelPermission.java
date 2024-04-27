@@ -1,2 +1,12 @@
-package com.clima.aspectdemo.util;public @interface CheckLevelPermission {
+package com.clima.aspectdemo.util;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CheckLevelPermission {
+    Module value();
 }
